@@ -1,3 +1,6 @@
+import lombok.Builder;
+
+@Builder
 public class Employee {
     public long id;
     public String firstName;
